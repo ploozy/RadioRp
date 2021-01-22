@@ -1,0 +1,90 @@
+/*GLOBAL CSS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+
+
+}
+h1{
+    font-size: 2.6rem;
+    font-family: 'Nunito', sans-serif;
+}
+h2{
+    font-size: 4.8rem;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+
+}
+h3{
+    font-size: 3rem;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;    
+}
+h4, h5{
+    font-size: 2.8rem;
+    font-family: 'Nunito', sans-serif;
+    
+}
+li{
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-head{
+    background: #0D2448;
+    color: #fff;
+}
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    position: relative;
+}
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    position: relative;
+}
+#logo{
+    flex: 1 1 40rem;
+}
+/* HERO*/
+.hero{
+    min-height: 90vh;
+    background: url('https://images2.alphacoders.com/853/853424.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero h3{
+    padding: 4rem;
+    position: relative;
+    z-index: 1;
+}
+button{
+    padding: 2rem 6rem;
+    background: #0f5ddb;
+    color: #fff;
+    font-size: 2.8rem;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+}

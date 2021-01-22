@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 2.6rem;
+    font-family: 'Nunito', sans-serif;
+}
+h2{
+    font-size: 4.8rem;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+}
+h3{
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Nunito', sans-serif  
+}
+h4, h5{
+    font-size: 2.8rem;
+    font-family: 'Nunito', sans-serif;
+    
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+li{
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+}
+.logo{
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    padding: 2rem 4rem;
+    background: #1A345D;
+    color: #fff;
+    font-size: 2.8rem;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    display: flex;
+}
+.header_text{
+    margin: 1em;
+}
+
+
+.main-head{
+    background: #0D2448;
+    color: #fff;
+}
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    position: relative;
+}
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    position: relative;
+}
+/*HERO*/
+.hero{
+    min-height: 90vh;
+    background: url('https://wallpaperaccess.com/full/842451.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero h3{
+    padding: 4rem;
+    position: relative;
+    z-index: 1;
+}
